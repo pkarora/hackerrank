@@ -8,6 +8,7 @@ int main(){
         cin>>b;
         cin>>c;
         cin>>d;
+        bool check = false;
         int i=1;
         while(i<=10000)
         {
@@ -15,7 +16,7 @@ int main(){
                 c+=d;
                 if(a==c)
                 {
-                        bool check = true;
+                        check = true;
                         break;
                 }
                 i++;

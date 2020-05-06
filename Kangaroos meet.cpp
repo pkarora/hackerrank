@@ -1,13 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-        int n;
-        cin>>n;
         int a,b,c,d;
-        cin>>a;
-        cin>>b;
-        cin>>c;
-        cin>>d;
+        cin>>a>>b>>c>>d;
         bool check = false;
         int i=1;
         while(i<=10000)

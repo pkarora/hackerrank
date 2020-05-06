@@ -12,13 +12,13 @@ int main(){
         int i=1;
         while(i<=10000)
         {
-                a+=b;
-                c+=d;
                 if(a==c)
                 {
                         check = true;
                         break;
                 }
+                a+=b;
+                c+=d;
                 i++;
         }
         if(check)

@@ -16,11 +16,11 @@ int main(){
                 cin>>arm[i];
                 b = min(b,arm[i]);
         }
-        int summ=0,sumn=0, modn, modm;
+        int modn, modm;
         int count=0;
         while(a<=b)
         {
-
+                int summ=0,sumn=0;
                 for(int i=0; i<n; i++)
                 {
                         modn = a%arn[i];

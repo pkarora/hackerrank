@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define FAST_IOP ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
+#define FAST_IO ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
 //#define int long long int
 
 using namespace std;
@@ -17,31 +17,26 @@ void code()
 
         }
         sum*=k;
-        if(sum<10)
-                cout<<sum;
-        else
+        while(sum>=10)
         {
-                while(sum>10)
+                string j = to_string(sum);
+                int p = j.size(),summ=0;
+                for(int i=0; i<p; i++)
                 {
-                        string j = to_string(sum);
-                        int p = j.size(),summ=0;
-                        for(int i=0; i<p; i++)
-                        {
-                                summ = summ + (j[i] - '0');
-                        }
-                        sum = summ;
+                        summ = summ + (j[i] - '0');
                 }
-                cout<<sum;
+                sum = summ;
         }
-
-
-
-
+        cout<<sum;
 }
+
+
+
+
 signed main()
 
 {
-        FAST_IOP;
+        FAST_IO;
         int t = 1;
 
         //cin>>t;

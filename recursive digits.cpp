@@ -31,7 +31,9 @@ void code()
                         }
                         sum = summ;
                 }
+                cout<<sum;
         }
+
 
 
 

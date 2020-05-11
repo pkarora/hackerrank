@@ -17,7 +17,7 @@ void solve()
                         break;
                 div++;
         }
-        cout<<div;
+        cout<<div<<endl;
 
 
 }

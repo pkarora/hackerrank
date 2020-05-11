@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define FAST_IO ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
-//#define int long long int
+#define int long long int
 
 using namespace std;
 
